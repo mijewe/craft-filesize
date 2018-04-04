@@ -15,7 +15,7 @@ class FileSizeTwigExtension extends \Twig_Extension
 	public function getFilters()
 	{
 	    return array(
-	        'filesize' => new Twig_Filter_Method($this, 'filesize'),
+	        'getfilesize' => new Twig_Filter_Method($this, 'filesize'),
 	    );
 	}
 
